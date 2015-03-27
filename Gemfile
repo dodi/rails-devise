@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-ruby '1.9.3'
+ruby '2.0.0'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
 # Use SCSS for stylesheets
@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.0'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
-  gem 'debugger'
+  #gem 'debugger'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
